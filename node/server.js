@@ -11,7 +11,6 @@ Mongo.connect(mongo_url,function(err,db) {
     } else {
         console.log('Connected to MongoDB');
     }
-<<<<<<< HEAD
 });
 
 var app = express();
@@ -25,6 +24,4 @@ app.get('/', function(req,res) {
 });
 app.listen(3000);
 console.log('listening on 3000');
-=======
-});
->>>>>>> 4352e1f217194b9bc3ef0e057a764de153d17dbd
+
